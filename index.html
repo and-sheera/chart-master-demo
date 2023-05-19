@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>ChartMaster</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="https://vitejs.dev/logo.svg" rel="icon" type="image/x-icon">
+    <script type="module" crossorigin src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="inner"><a class="header__logo" href="/">
+            <svg class="svg svg--icon_logo">
+              <use xlink:href="#icon_logo"></use>
+            </svg></a>
+          <div class="header__links"><a class="header__link" href="https://www.npmjs.com/package/chart-master" target="_blank">
+              <svg class="svg svg--icon_npm">
+                <use xlink:href="#icon_npm"></use>
+              </svg></a><a class="header__link" href="https://github.com/and-sheera/chart-master" target="_blank">
+              <svg class="svg svg--icon_github">
+                <use xlink:href="#icon_github"></use>
+              </svg></a></div>
+        </div>
+      </header>
+      <main>
+        <div class="inner">
+          <div class="banner">
+            <div class="banner__text">
+              <h1 class="banner__title">Добро пожаловать на&nbsp;демо-страницу библиотеки <span class="attention">ChartMaster</span>
+              </h1>
+              <div class="banner__descr">ChartMaster&nbsp;&mdash; это мощная и&nbsp;гибкая библиотека для создания разнообразных графиков и&nbsp;диаграмм, которая поможет вам визуализировать и&nbsp;анализировать данные с&nbsp;легкостью.</div>
+            </div>
+            <div class="banner__img"><img src="images/chart.png" alt=""></div>
+          </div>
+          <div class="charts">
+            <div class="chart">
+              <div class="chart__name">Круговая диаграмма</div>
+              <div id="chart1"></div>
+            </div>
+            <div class="chart">
+              <div class="chart__name">Столбчатая диаграмма</div>
+              <div id="chart2"></div>
+            </div>
+            <div class="chart">
+              <div class="chart__name">Линейная диаграмма</div>
+              <div id="chart3"></div>
+            </div>
+            <div class="chart">
+              <div class="chart__name">Радарная диаграмма</div>
+              <div id="chart5"></div>
+            </div>
+            <div class="chart chart--span2">
+              <div class="chart__name">Полярная диаграмма</div>
+              <div id="chart4"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="inner">
+          <div class="footer__container"><a class="ui-button" href="https://www.npmjs.com/package/chart-master" target="_blank">Начать использовать</a><a class="ui-button" href="https://and-sheera.github.io/chart-master/" target="_blank">Документация</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>
