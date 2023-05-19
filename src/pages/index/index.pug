@@ -1,0 +1,33 @@
+extends ../../layouts/layout
+
+block variables
+  -
+    const pageTitle = 'ChartMaster'
+
+block content
+  main
+    .inner
+      .banner
+        .banner__text
+          h1.banner__title Добро пожаловать на&nbsp;демо-страницу библиотеки
+            =' '
+            span.attention ChartMaster
+          .banner__descr ChartMaster&nbsp;&mdash; это мощная и&nbsp;гибкая библиотека для создания разнообразных графиков и&nbsp;диаграмм, которая поможет вам визуализировать и&nbsp;анализировать данные с&nbsp;легкостью.
+        .banner__img: img(src='../../images/chart.png' alt='')
+      .charts
+        .chart
+          .chart__name Круговая диаграмма
+          #chart1
+        .chart
+          .chart__name Столбчатая диаграмма
+          #chart2
+        .chart
+          .chart__name Линейная диаграмма
+          #chart3
+        .chart
+          .chart__name Радарная диаграмма
+          #chart5
+        .chart.chart--span2
+          .chart__name Полярная диаграмма
+          #chart4
+

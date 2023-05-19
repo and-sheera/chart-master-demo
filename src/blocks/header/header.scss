@@ -1,0 +1,26 @@
+.header {
+  flex: 0 1;
+  padding: 18px 0;
+  border-bottom: 1px solid rgb(255 255 255 / 0.16);
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+  &__logo {
+    width: 200px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  &__link {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+}

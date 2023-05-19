@@ -1,0 +1,19 @@
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 30px 12px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+  background: $blue;
+  border: 1px solid $blue;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: $blue;
+    background: #232324;
+  }
+}
